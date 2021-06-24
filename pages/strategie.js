@@ -12,7 +12,7 @@ function Strategie() {
         <br />
         <li>
           La marque dispose d’articles de blog sur son site, qui abordent différents thèmes, avec des vidéos dans
-          lesquelles se trouvent des personnalités comme Laury Thilleman, l'ambassadrice mettant en avant leur cible{' '}
+          lesquelles se trouvent des personnalités comme Laury Thilleman, l'ambassadrice mettant en avant leur cible
           <br />
         </li>
         <br />
