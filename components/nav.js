@@ -16,7 +16,7 @@ function Nav() {
   useEffect(() => {
     const closeMenuOnDesktop = (e) => {
       if (e.target.innerWidth >= 1024) {
-        if (!isMenuOpen) return
+        if (isMenuOpen) return
         setIsMenuOpen(false)
       }
     }
@@ -41,11 +41,13 @@ function Nav() {
     >
       <nav className="flex items-center">
         <Link href="/">
-          <img
-            className="cursor-pointer w-20"
-            src="https://cdn.discordapp.com/attachments/691321186797486100/841246324623671296/Dyson-Embleme.png"
-            alt="dyson logo"
-          />
+          <a>
+            <img
+              className="cursor-pointer w-20"
+              src="https://cdn.discordapp.com/attachments/691321186797486100/841246324623671296/Dyson-Embleme.png"
+              alt="dyson logo"
+            />
+          </a>
         </Link>
         <Link href="/about">
           <a className="lg:block hidden ml-6 cursor-pointer hover:text-white">
